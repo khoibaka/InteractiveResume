@@ -1,0 +1,184 @@
+/*Paralax Background*/
+body, html {
+  height: 100%;
+  margin: 0 0;
+}
+html {
+  scroll-behavior: smooth;
+ }
+
+.bg { 
+  /* The image used */
+  background-image: url("../assets/aquasolo.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*---------------------*/
+
+/*Intro*/
+
+#intro{
+  height: 100%;
+  width: 100%; 
+  color: white;
+  font-family: Roboto;
+  text-align: center;
+}
+
+#intro h1{
+  font-size: 50px;
+}
+#intro hr{
+  width: 30%;
+}
+
+/*---------------------*/
+/*Profile*/
+
+#profile{
+  font-family: "Noto Sans";
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+
+#profile hr{
+  color:  #22A39F;
+  width: 100%
+}
+
+
+
+#aboutMe{
+  width: 30%;
+}
+
+#aboutMe p{
+  color: gray;
+}
+
+#profileImg{
+  width: 30%;
+}
+
+#profileImg img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 10px #F3EFE0 solid;
+}
+
+
+#myResume{
+  background-image: url("../assets/resume.png");
+  background-size: 100% 100%;
+  height: 50px;
+  width:50px;
+}
+/*---------------------*/
+#experience{
+  font-family: "Noto Sans";
+  background-color: #F3EFE0;
+  padding-bottom: 50px;
+}
+
+#sub-title{
+  margin-top: 20px;
+  font-size: 28px;
+  color: #22A39F;
+}
+
+.school-des p{
+  margin: 0 0;
+}
+
+/*---------------------*/
+#abilities{
+  font-family: "Noto Sans";
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+/*---------------------*/
+
+#projects{
+  font-family: "Noto Sans";
+  background-color: #F3EFE0;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#fast-haralick .img-show{
+  background-image: url("../assets/ProjectShowcase/FastHaralick/output.png");
+  background-size: 100% 100%;
+  height: 350px;
+  transition: 1s
+}
+
+#fast-haralick .desc{
+  background-color: #F3EFE0;
+}
+
+/*---------------------*/
+
+.title-center{
+  text-align: center;
+}
+
+.small_center{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.placeholder{
+  width: 100%;
+  height: 400px;
+  background-color: #F3EFE0;
+}
+
+
+.title{
+  padding-top: 50px;
+  font-weight: normal;
+  color: #22A39F;
+  font-size: 50px;
+}
+
+.description{
+  color: gray;
+  font-size: 25px;
+}
+
+.spacing-bot{
+    margin-bottom: 25px;
+}
+
+.nopadding{
+  padding: 0 0 !important;
+}
+
+.nomargin{
+  margin: 0 0 !important;
+}
+
+.half-clear{
+  opacity: 0.5;
+}
+
+.f-left{
+  float:right;
+}
+
+.bl{
+  background-color: #22A39F !important;
+  border-color: #22A39F !important;
+}

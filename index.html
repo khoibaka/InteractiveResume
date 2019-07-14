@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Interactive Resume</title>
+	<link rel="stylesheet" type="text/css" href="css/resume.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body class="bg">
+		<div id="intro">
+			<div style="padding-top: 200px">
+				<h1 id="font">Minh Khoi Le</h1>
+				<hr>
+				<h2>Interactive Resume</h2>
+			</div>
+			<!-- write on click with js -->
+			<button onClick="document.getElementById('profile').scrollIntoView();"> Next</button>
+		</div>
+		<!-- -------------------- -->
+		<div id="profile">
+			<div class="small_center"class="container">
+
+				<div class="title-center">
+					<h1 class="title">Profile</h1>
+					<p class="description">I'm a Deep Learning Enthusiast</p>
+					<hr>
+				</div>
+				<div class="row">
+					<div id="aboutMe" class="col-md-4">
+						<h3>About Me</h3>
+						<p>I am a Computer Science student at Case Western Reserve University. I love Machine Learning/ Deep Learning and the math behind it. I love spending my free time doing personal and group projects with my friends. I like to work in a team. I learn faster and much more when working in a team. As Napolean Hill  said: "It is literally true that you can succeed best and quickest by helping others to succeed."</p>		
+					</div>
+					<div id="profileImg" class="col-md-4 text-center">		
+						<img src="assets/profile.JPG">
+					</div>
+					<div id="details" class="col-md-4">
+						<h3>Details</h3>
+						<p>
+							<strong>Name:</strong>
+							<br>	
+							Minh Khoi Le
+							<br>	
+							<strong>School Year</strong>
+							<br>	
+							Junior
+							<br>	
+							<strong>Major</strong>
+							<br>	
+							Computer Science
+							<br>	
+							<strong>School</strong>
+							<br>	
+							Case Western Reserve University
+						</p>
+						<button class="btn btn-large btn-light" id="myResume"></button>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<!-- -------------------- -->
+		<div id="experience">
+			<div class="small_center"class="container">
+				<div class="title-center">
+					<h1 class="title">Experience</h1>
+					<p class="description">
+						“There is Nothing More Practical Than A Good Theory” 
+						<br>	
+						- Kurt Lewin
+					</p>
+					<hr>
+				</div>
+				<!-- --------------Education---------------- -->
+				<h3 id="sub-title">Education</h3>
+				<div class="row spacing-bot">
+					<div class="col-md-4">
+						<p>
+							<strong>Case Western Reserve University</strong>	
+							<br>	
+							August 2017 - Current
+						</p>
+					</div>
+					<div class="col-md-8 school-des">
+						<p>
+							<strong>BS - Computer Science (Specialization: Artificial Inteligent)</strong>	
+							<br>	
+							At Case Western Reserve University, most of the coursework is Java-based programming. During my time in here, I studied OOP, data structure, algorithm, artificial intelligent, etc. Here I also get to study the math behind all of them to further improve my analytic skill
+						</p>
+						<a href="https://case.edu/">Case Western Reserve University</a>
+					</div>
+				</div>
+				<div class="row spacing-bot">
+					<div class="col-md-4">
+						<p>
+							<strong>Le Hong Phong High School for the Gifted</strong>	
+							<br>	
+							August 2014 - May 2017
+						</p>
+					</div>
+					<div class="col-md-8 school-des">
+						<p>
+							<strong>High school(Speciality: Math) </strong>	
+							<br>	
+							At my high school, I studied with a schedule focus heavily on Mathematics. In my second year of high school, I realised I love to code and create things so I started to practice coding and participate in my school team for competitive programming.
+						</p>
+						<a href=http://www.thpt-lehongphong-tphcm.edu.vn/>Le Hong Phong High School for the Gifted</a>
+					</div>
+				</div>
+				<div class="row spacing-bot">
+					<div class="col-md-4">
+						<p>
+							<strong>Online Courses</strong>	
+							<br>	
+							August 2014 - Current
+						</p>
+					</div>
+					<div class="col-md-8 school-des">
+						<p>
+							<strong>Online Courses (Sites: Coursera, Udemy, Udacity)</strong>	
+							<br>	
+							I learned Machine Learning from Andrew Ng's course on Coursera in my second year of high school. Since then, I took some other courses such as Statistics/Data Science on Udacity and Web development from Udemy in my spare time.
+						</p>
+						
+					</div>
+				</div>
+				<!-- --------------Education---------------- -->
+				<hr>
+				<h3 id="sub-title">Careers</h3>
+				<div class="row spacing-bot">
+					<div class="col-md-4">
+						<p>
+							<strong>Center for Computational Imaging and Personalized Diagnostics (CCIPD)</strong>	
+							<br>	
+							September 2018 - Current
+						</p>
+					</div>
+					<div class="col-md-8 school-des">
+						<p>
+							<strong>Undergraduate Research Assistant</strong>	
+							<br>	
+							At CCIPD, I worked with Dr. Anant Madabhushi and Dr. Cheng Lu on projects that utilize the predictive power of Deep Learning to solve problems in cancers and digital pathology. The work I did here will be described in the Projects section.
+						</p>
+						<a href="http://engineering.case.edu/centers/ccipd/">CCIPD</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ----------------------- -->
+		<div id="abilities">
+			<div class="small_center"class="container">
+				<div class="title-center">
+					<h1 class="title">Abilities</h1>
+					<p class="description">
+						“An investment in knowledge always pays the best interest.” 
+						<br>	
+						- Benjamin Franklin
+					</p>
+					<hr>
+				</div>
+				<!-- Label -->
+				<div class="row">
+					<div class="col-md-7">
+						<h3 id="sub-title">Programming Language</h3>
+					</div>
+					<div class="col-md-5">
+						<h3 id="sub-title">Skills</h3>
+					</div>
+				</div>
+				
+				<!-- -----------Row-------------- -->
+				<div class="row">
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">Python</p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:100%; height:100%;"></div>
+						</div>
+					</div>
+					<div class="col-md-2">	</div>
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">Machine Learning</p></p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:100%; height:100%;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<!-- -----------Row-------------- -->
+				<div class="row">
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">Java</p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:100%; height:100%;"></div>
+						</div>
+					</div>
+					<div class="col-md-2">	</div>
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">Object Oriented</p></p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:100%; height:100%;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<!-- -----------Row-------------- -->
+				<div class="row">
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">Javascript</p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:80%; height:100%;"></div>
+						</div>
+					</div>
+					<div class="col-md-2">	</div>
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">Data Analytics</p></p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:80%; height:100%;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<!-- -----------Row-------------- -->
+				<div class="row">
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">C#</p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:60%; height:100%;"></div>
+						</div>
+					</div>
+					<div class="col-md-2">	</div>
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">Computer Vision</p></p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:80%; height:100%;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<!-- -----------Row-------------- -->
+				<div class="row">
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">HTML</p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:60%; height:100%;"></div>
+						</div>
+					</div>
+					<div class="col-md-2">	</div>
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">Research</p></p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:80%; height:100%;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<!-- -----------Row-------------- -->
+				<div class="row">
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">CSS</p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:60%; height:100%;"></div>
+						</div>
+					</div>
+					<div class="col-md-2">	</div>
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">Frontend Development</p></p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:60%; height:100%;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<!-- -----------Row-------------- -->
+				<div class="row">
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">MySQL</p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:60%; height:100%;"></div>
+						</div>
+					</div>
+					<div class="col-md-2">	</div>
+					<div class="col-md-5 row nomargin" >
+						<div class="col-md-8 skill nopadding">	
+							<p class="nomargin">Backend Development</p></p>
+						</div>
+						<div class="col-md-4 progress nopadding" >
+							<div class="progress-bar " style="width:40%; height:100%;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+			</div>
+		</div>
+
+
+
+		<!-- ----------------------- -->
+		<div id="projects">
+			<div class="small_center">
+				<div class="title-center">
+					<h1 class="title">Projects</h1>
+					<p class="description">
+						“Without data, you're just another person with an opinion.” 
+						<br>	
+						- W. Edwards Deming
+					</p>
+					<hr>
+				</div>
+			</div>
+			<div class="project-img row" id="fast-haralick">
+					<div class="col-md-5 img-show nopadding">	
+						<button id="fh-right" class= "btn btn-primary half-clear f-left bl">></button>
+						<button id="fh-left" class="btn btn-primary half-clear f-left bl"><</button>
+					</div>
+					<div class="col-md-7 desc">
+						<h3 id="sub-title">Efficient Quantification of Haralick Texture Features</h3>
+						<p>
+								Haralick Texture feature of an image are some of the most important hand-crafted feature in Histology Image Analysis. However, the process of generating them tooks very long time and often bottleneck the research process in computational efficiency.
+								<br>
+								I with the help of Dr.Cheng Lu created a Deep Learning based method that utilize the power of Convolutional Neural Network(CNN) to mimic the process of calculation Haralick features. On CPU, our method is much faster compare to the traditional method. With Convolutional Neural Network, we also can paralelize the process which boost the run time even more when using GPU
+								<br>
+								I am finalizing the paper so I am not allowed to provide the method and result here yet.
+					</div>
+			</div>
+			
+
+		</div>
+
+
+		<div class="placeholder"></div>
+		
+</body>
+<script type="text/javascript" src="javascript/resume.js"></script>
+</html>
