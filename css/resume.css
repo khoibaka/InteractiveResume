@@ -34,7 +34,7 @@ html {
 }
 
 #intro h1{
-  font-size: 50px;
+  font-size: 60px;
 }
 #intro hr{
   width: 30%;
@@ -79,10 +79,22 @@ html {
 
 #myResume{
   background-image: url("../assets/resume.png");
+}
+
+#myGithub{
+  background-image: url("../assets/github-icon.png");
+}
+
+#myLinkedIn{
+  background-image: url("../assets/linkedin-icon.png");
+}
+
+.bt-lk{
   background-size: 100% 100%;
   height: 50px;
   width:50px;
 }
+
 /*---------------------*/
 #experience{
   font-family: "Noto Sans";
@@ -113,21 +125,34 @@ html {
   font-family: "Noto Sans";
   background-color: #F3EFE0;
   padding-bottom: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 #fast-haralick .img-show{
-  background-image: url("../assets/ProjectShowcase/FastHaralick/output.png");
+  background-image: url("../assets/fl_output.png");
+
+}
+
+#algoInvestor .img-show{
+  background-image: url("../assets/algo_predict.png");
+}
+.img-show{
   background-size: 100% 100%;
   height: 350px;
-  transition: 1s
+  transition: 1s;
+  background-repeat: no-repeat;
+  padding: 0 0 !important
 }
 
-#fast-haralick .desc{
-  background-color: #F3EFE0;
+.desc{
+  padding: 0 0 !important;
 }
 
+
+.no-image{
+  background-image: url("../assets/no_image.png");
+}
 /*---------------------*/
 
 .title-center{
@@ -181,4 +206,30 @@ html {
 .bl{
   background-color: #22A39F !important;
   border-color: #22A39F !important;
+}
+
+#navigate {
+  width: 85px
+}
+
+#navigate button{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  border: 0;
+  background-color: black;
+  font-weight: 700;
+  padding: 0 0;
+  color: white;
+}
+
+#navigate button:hover{
+  background-color:  #22A39F;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 50px;
+  width: 100%
 }

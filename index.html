@@ -6,17 +6,22 @@
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+		<link rel="shortcut icon" href="assets/icon.ico"/>
 </head>
 <body class="bg">
 		<div id="intro">
-			<div style="padding-top: 200px">
+			<div style="padding-top: 300px">
 				<h1 id="font">Minh Khoi Le</h1>
 				<hr>
 				<h2>Interactive Resume</h2>
 			</div>
 			<!-- write on click with js -->
-			<button onClick="document.getElementById('profile').scrollIntoView();"> Next</button>
+		</div>
+		<div id="navigate" class="sticky">
+			<button onClick="document.getElementById('profile').scrollIntoView();">Profile</button>
+  			<button onClick="document.getElementById('experience').scrollIntoView();">Experience</button>
+  			<button onClick="document.getElementById('abilities').scrollIntoView();">Abilities</button>
+  			<button onClick="document.getElementById('projects').scrollIntoView();">Projects</button>
 		</div>
 		<!-- -------------------- -->
 		<div id="profile">
@@ -53,8 +58,14 @@
 							<strong>School</strong>
 							<br>	
 							Case Western Reserve University
+							<br>	
+							<strong>Contact</strong>
+							<br>	
+							khoileminh309@gmail.com
 						</p>
-						<button class="btn btn-large btn-light" id="myResume"></button>
+						<button class="btn btn-large btn-light bt-lk" id="myResume" ></button>
+						<button class="btn btn-large btn-light bt-lk" id="myGithub"></button>
+						<button class="btn btn-large btn-light bt-lk" id="myLinkedIn"></button>
 					</div>
 				</div>
 			</div>	
@@ -334,11 +345,11 @@
 				</div>
 			</div>
 			<div class="project-img row" id="fast-haralick">
-					<div class="col-md-5 img-show nopadding">	
+					<div class="col-md-5 img-show">	
 						<button id="fh-right" class= "btn btn-primary half-clear f-left bl">></button>
 						<button id="fh-left" class="btn btn-primary half-clear f-left bl"><</button>
 					</div>
-					<div class="col-md-7 desc">
+					<div class="col-md-7 desc no-padding">
 						<h3 id="sub-title">Efficient Quantification of Haralick Texture Features</h3>
 						<p>
 								Haralick Texture feature of an image are some of the most important hand-crafted feature in Histology Image Analysis. However, the process of generating them tooks very long time and often bottleneck the research process in computational efficiency.
@@ -348,12 +359,40 @@
 								I am finalizing the paper so I am not allowed to provide the method and result here yet.
 					</div>
 			</div>
-			
+			<hr style="width:50%">
+			<div class="project-img row" id="recurrence">
+					<div class="col-md-7 desc">
+						<h3 id="sub-title">Predicting Recurrence of Oropharyngeal Cancer</h3>
+						<p>
+								Recurrence in cancer is the term when a person who is cured from cancer have cancer again in 10 years. Knowing if a patient will have cancer again will provide doctor more information to give correct treatment for cancer patients. However predicting recurrence in cancer now is still a complicated task for doctor to do which have a low accuracy. 
+								<br>
+								I am working with Dr. Cheng Lu on developing a Deep Learning method for predicting recurrence in Oropharyngeal cancer using Whole Slide Image (WSI) and Tissue Microarrays (TMA).
 
+					</div>
+					<div class="col-md-5 img-show nopaddin no-image">	
+						<button id="fh-right" class= "btn btn-primary half-clear f-left bl">></button>
+						<button id="fh-left" class="btn btn-primary half-clear f-left bl"><</button>
+					</div>
+			</div>
+			<hr style="width:50%">
+			<div class="project-img row" id="algoInvestor">
+					<div class="col-md-5 img-show nopadding">	
+						<button id="fh-right" class= "btn btn-primary half-clear f-left bl">></button>
+						<button id="fh-left" class="btn btn-primary half-clear f-left bl"><</button>
+					</div>
+					<div class="col-md-7 desc">
+						<h3 id="sub-title">AlgoInvestor</h3>
+						<p>
+								Stock prices is a very interesting time series data to analyze because of its randomese but in a very organize way. Stock price not only behave based on the company performance but also based on the strategies of many Wall Street tradebot out there. 
+								<br>
+								Me and 2 of my friend are working on a machine learning model to predict the stock price in the future. Currenly, we had a good enough result with the error rate of 0.5%. We are working on develope a web scrapper to get news data from online sources and use that data to improve our machine learning model.
+								<br>
+								After optimizing our model, we will create a bot to make financial investment out of it.
+					</div>
+			</div>
+			
 		</div>
 
-
-		<div class="placeholder"></div>
 		
 </body>
 <script type="text/javascript" src="javascript/resume.js"></script>
