@@ -30,7 +30,7 @@ shift = function(id,sources, direction){
 }
 
 // Haralick
-fast_haralick_source = {path:["assets/fl_output.png", 
+fast_haralick_source = {path:["../assets/fl_output.png", 
 "assets/fl_runtime.png"], index:0};
 
 
@@ -43,8 +43,8 @@ document.querySelector("#fast-haralick #fh-left").addEventListener("click", func
 	shift("#fast-haralick .img-show", fast_haralick_source, -1);
 });
 
-algo_source = {path:["assets/algo_predict.png", 
-"assets/algo_example.png"],index:0};
+algo_source = {path:["../assets/algo_predict.png", 
+"../assets/algo_example.png"],index:0};
 
 document.querySelector("#algoInvestor #fh-right").addEventListener("click", function(){
 	shift("#algoInvestor .img-show", algo_source, 1);
