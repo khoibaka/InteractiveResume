@@ -130,12 +130,12 @@ html {
 }
 
 #fast-haralick .img-show{
-  background-image: url("../assets/fl_output.png");
+  background-image: url("https://i.ibb.co/znZT97V/fl-output.png");
 
 }
 
 #algoInvestor .img-show{
-  background-image: url("../assets/algo_predict.png");
+  background-image: url("https://i.ibb.co/6Zb05wm/algo-predict.png");
 }
 .img-show{
   background-size: 100% 100%;
@@ -149,7 +149,7 @@ html {
 
 
 .no-image{
-  background-image: url("../assets/no_image.png");
+  background-image: url("https://i.ibb.co/cT5gZ5S/no-image.png");
 }
 /*---------------------*/
 
