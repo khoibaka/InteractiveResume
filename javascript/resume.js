@@ -4,7 +4,7 @@ document.getElementById("myResume").addEventListener("click", function(){
 })
 
 document.getElementById("myGithub").addEventListener("click", function(){
-	openInNewTab("https://gitlab.com/KhoiLe309");
+	openInNewTab("https://github.com/khoibaka");
 })
 document.getElementById("myLinkedIn").addEventListener("click", function(){
 	openInNewTab("https://www.linkedin.com/in/khoi-le-a25400148/");
@@ -30,8 +30,8 @@ shift = function(id,sources, direction){
 }
 
 // Haralick
-fast_haralick_source = {path:["https://i.ibb.co/znZT97V/fl-output.png", 
-"https://i.ibb.co/ngqgxZT/fl-runtime.png"], index:0};
+fast_haralick_source = {path:["https://i.ibb.co/Th23Z0G/example.png", 
+"https://i.ibb.co/D1DShp2/prototype.png", "https://i.ibb.co/tKhs5Fh/runtime.png"], index:0};
 
 
 
