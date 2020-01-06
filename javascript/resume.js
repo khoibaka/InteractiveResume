@@ -1,6 +1,6 @@
 
 document.getElementById("myResume").addEventListener("click", function(){
-	openInNewTab("https://drive.google.com/file/d/1T5sG3p26oAc6U1JIXD82Tm39t6F2LilY/view?usp=sharing");
+	openInNewTab("https://drive.google.com/file/d/1XhHygimXQikZ-XHshadOfWFb57pHSKrJ/view?usp=sharing");
 })
 
 document.getElementById("myGithub").addEventListener("click", function(){
