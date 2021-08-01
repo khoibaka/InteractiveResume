@@ -4,7 +4,7 @@ document.getElementById("myResume").addEventListener("click", function(){
 })
 
 document.getElementById("myGithub").addEventListener("click", function(){
-	openInNewTab("https://github.com/khoibaka");
+	openInNewTab("https://github.com/khoile3009");
 })
 document.getElementById("myLinkedIn").addEventListener("click", function(){
 	openInNewTab("https://www.linkedin.com/in/khoi-le-a25400148/");
